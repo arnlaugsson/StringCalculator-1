@@ -6,12 +6,14 @@ function Add( numbers ) {
 		return 0; 
 	}
 	
-	if ( numbers.includes(",") ) {
+	if ( numbers.includes(",") || numbers.includes("\n") ) {
 		
-		var numberArr = numbers.split(",");
+		var numberArr = numbers.split(/,|\n/g);
 		
-		return Sum( numberArr );
+		
+		return Sum( numberArr ); 
 	}
+	
 	
 	else {
 		return parseInt( numbers );
