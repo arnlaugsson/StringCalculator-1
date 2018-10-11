@@ -14,6 +14,14 @@ it ("Returns the sum of the two numbers that are given", () => {
 	expect( Add("1,3")).toBe(4);
 });
 
-it ("Returns the sum of the two numbers that are given", () => {
+it ("Returns the sum of the three numbers that are given", () => {
 	expect( Add("1,2,3")).toBe(6);
+});
+
+it ("Returns the sum of all the numbers that are given", () => {
+	expect( Add("1,2,3,4,1")).toBe(11);
+});
+
+it ("Returns the sum of the numbers that are given with New Line", () => {
+	expect( Add("1\n2,3")).toBe(6);
 });
