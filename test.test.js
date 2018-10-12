@@ -23,5 +23,24 @@ it ("Returns the sum of all the numbers that are given", () => {
 });
 
 it ("Returns the sum of the numbers that are given with New Line", () => {
-	expect( Add("1\n2,3")).toBe(6);
+	expect( Add("1\n2")).toBe(3);
 });
+
+/*it ("Negatives numbers are not allowed", function () {
+	expect( function () {
+		return Add("2, -2, 5");
+	}).to.throw(Error);
+});*/
+
+it ("Returns the number that are smaller than 0", () => {
+	expect( Add("1,-2,3")).toBe("Negatives not allowed: -2");
+});
+
+it ("Returns the sum of all the numbers that are given but does not take numbers thar are over 1000", () => {
+	expect( Add("1,1010,3")).toBe(4);
+});
+
+
+
+
+
