@@ -1,0 +1,22 @@
+{
+  "name": "eins_lokaverk",
+  "version": "1.0.0",
+  "description": "lokaverk",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logisteinn/StringCalculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logisteinn/StringCalculator/issues"
+  },
+  "homepage": "https://github.com/logisteinn/StringCalculator#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
