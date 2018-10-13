@@ -40,6 +40,18 @@ it ("Returns the sum of all the numbers that are given but does not take numbers
 	expect( Add("1,1010,3")).toBe(4);
 });
 
+it ("Returns the sum of the numbers that are given and ignors delimiters", () => {
+	expect( Add("//;\n1;2")).toBe(3);
+});
+
+
+
+
+
+
+
+
+
 
 
 
