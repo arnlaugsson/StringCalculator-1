@@ -1,0 +1,3 @@
+Í þessu verkefni notaði ég Notepad++. 
+Liðir 1,2,3 og 5 gengu vel og kom ekkert vandamál upp, en liður nr 4 og 6 voru mun erfiðari.
+Með lið nr.4 þá reyndi ég að nota trow en villan sem kom upp var alltaf sú sama, New Error var ekki til. Þegar ég reyndi að nota thrrow new Error kom alltaf að Error var ekki skilgreint.
